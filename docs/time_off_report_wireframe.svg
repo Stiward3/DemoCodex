@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Time Off Report wireframe</title>
+  <desc id="desc">Dashboard mockup with header, filter rail, KPI cards, three analysis panels, and employee detail table.</desc>
+  <style>
+    .bg { fill: #f5f1e8; }
+    .panel { fill: #fffdf8; stroke: #2f4858; stroke-width: 2; rx: 18; }
+    .accent { fill: #d6e4d8; stroke: #2f4858; stroke-width: 2; rx: 18; }
+    .kpi { fill: #f4d6ae; stroke: #2f4858; stroke-width: 2; rx: 16; }
+    .table-head { fill: #d9e8f5; stroke: #2f4858; stroke-width: 2; rx: 12; }
+    .text { fill: #1f2a30; font-family: Arial, sans-serif; }
+    .title { font-size: 30px; font-weight: 700; }
+    .label { font-size: 18px; font-weight: 700; }
+    .small { font-size: 15px; }
+    .tiny { font-size: 13px; }
+    .muted { fill: #5f6b73; }
+    .line { stroke: #2f4858; stroke-width: 2; }
+    .dash { stroke: #5f6b73; stroke-width: 2; stroke-dasharray: 8 6; fill: none; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1440" height="1080" />
+
+  <rect class="panel" x="40" y="32" width="1360" height="78" />
+  <text class="text title" x="70" y="78">Time Off Report</text>
+  <text class="text small muted" x="320" y="78">Department: Marketing | Date range: Jan-Dec 2026 | 3 active filters</text>
+  <rect class="accent" x="1180" y="50" width="90" height="40" />
+  <rect class="accent" x="1285" y="50" width="90" height="40" />
+  <text class="text tiny" x="1204" y="75">Reset</text>
+  <text class="text tiny" x="1311" y="75">Export</text>
+
+  <rect class="accent" x="40" y="130" width="1360" height="88" />
+  <text class="text label" x="65" y="164">Filters</text>
+  <rect class="panel" x="60" y="176" width="180" height="26" />
+  <rect class="panel" x="260" y="176" width="180" height="26" />
+  <rect class="panel" x="460" y="176" width="180" height="26" />
+  <rect class="panel" x="660" y="176" width="180" height="26" />
+  <rect class="panel" x="860" y="176" width="180" height="26" />
+  <rect class="panel" x="1060" y="176" width="180" height="26" />
+  <text class="text tiny" x="70" y="194">Department</text>
+  <text class="text tiny" x="270" y="194">Date range</text>
+  <text class="text tiny" x="470" y="194">Time-off type</text>
+  <text class="text tiny" x="670" y="194">Employee status</text>
+  <text class="text tiny" x="870" y="194">Manager</text>
+  <text class="text tiny" x="1070" y="194">Location</text>
+
+  <rect class="kpi" x="40" y="246" width="210" height="104" />
+  <rect class="kpi" x="270" y="246" width="210" height="104" />
+  <rect class="kpi" x="500" y="246" width="210" height="104" />
+  <rect class="kpi" x="730" y="246" width="210" height="104" />
+  <rect class="kpi" x="960" y="246" width="210" height="104" />
+  <rect class="kpi" x="1190" y="246" width="210" height="104" />
+  <text class="text label" x="60" y="282">Total employees</text>
+  <text class="text label" x="290" y="282">Approved leave</text>
+  <text class="text label" x="520" y="282">Requested days</text>
+  <text class="text label" x="750" y="282">Approved days</text>
+  <text class="text label" x="980" y="282">Upcoming absences</text>
+  <text class="text label" x="1210" y="282">Coverage risk</text>
+  <text class="text title" x="60" y="326">124</text>
+  <text class="text title" x="290" y="326">31</text>
+  <text class="text title" x="520" y="326">412</text>
+  <text class="text title" x="750" y="326">377</text>
+  <text class="text title" x="980" y="326">12</text>
+  <text class="text title" x="1210" y="326">4 teams</text>
+
+  <rect class="panel" x="40" y="378" width="640" height="280" />
+  <text class="text label" x="65" y="414">Time Off Trend</text>
+  <polyline class="dash" points="90,610 180,560 270,575 360,500 450,520 540,455 630,475" />
+  <line class="line" x1="90" y1="620" x2="630" y2="620" />
+  <line class="line" x1="90" y1="450" x2="90" y2="620" />
+  <text class="text tiny muted" x="90" y="640">Jan</text>
+  <text class="text tiny muted" x="250" y="640">Apr</text>
+  <text class="text tiny muted" x="410" y="640">Jul</text>
+  <text class="text tiny muted" x="570" y="640">Oct</text>
+
+  <rect class="panel" x="700" y="378" width="340" height="280" />
+  <text class="text label" x="725" y="414">By Time-Off Type</text>
+  <rect x="745" y="470" width="210" height="26" fill="#d6e4d8" stroke="#2f4858" stroke-width="2" />
+  <rect x="745" y="515" width="150" height="26" fill="#f4d6ae" stroke="#2f4858" stroke-width="2" />
+  <rect x="745" y="560" width="110" height="26" fill="#d9e8f5" stroke="#2f4858" stroke-width="2" />
+  <text class="text tiny" x="745" y="460">Vacation</text>
+  <text class="text tiny" x="745" y="505">Sick</text>
+  <text class="text tiny" x="745" y="550">Personal</text>
+
+  <rect class="panel" x="1060" y="378" width="340" height="280" />
+  <text class="text label" x="1085" y="414">Team Comparison</text>
+  <rect x="1100" y="540" width="32" height="70" fill="#d6e4d8" stroke="#2f4858" stroke-width="2" />
+  <rect x="1165" y="505" width="32" height="105" fill="#d6e4d8" stroke="#2f4858" stroke-width="2" />
+  <rect x="1230" y="470" width="32" height="140" fill="#f4d6ae" stroke="#2f4858" stroke-width="2" />
+  <rect x="1295" y="520" width="32" height="90" fill="#d9e8f5" stroke="#2f4858" stroke-width="2" />
+  <line class="line" x1="1090" y1="620" x2="1350" y2="620" />
+  <text class="text tiny muted" x="1092" y="640">A</text>
+  <text class="text tiny muted" x="1158" y="640">B</text>
+  <text class="text tiny muted" x="1223" y="640">C</text>
+  <text class="text tiny muted" x="1288" y="640">D</text>
+
+  <rect class="panel" x="40" y="690" width="1360" height="340" />
+  <text class="text label" x="65" y="728">Employee Detail</text>
+  <rect class="table-head" x="60" y="752" width="1320" height="42" />
+  <text class="text tiny" x="78" y="778">Employee</text>
+  <text class="text tiny" x="290" y="778">Team</text>
+  <text class="text tiny" x="430" y="778">Manager</text>
+  <text class="text tiny" x="610" y="778">Type</text>
+  <text class="text tiny" x="760" y="778">Requested</text>
+  <text class="text tiny" x="900" y="778">Approved</text>
+  <text class="text tiny" x="1040" y="778">Upcoming dates</text>
+  <text class="text tiny" x="1240" y="778">Status</text>
+
+  <line class="line" x1="60" y1="818" x2="1380" y2="818" />
+  <line class="line" x1="60" y1="864" x2="1380" y2="864" />
+  <line class="line" x1="60" y1="910" x2="1380" y2="910" />
+  <line class="line" x1="60" y1="956" x2="1380" y2="956" />
+  <text class="text tiny muted" x="78" y="808">Alex Rivera</text>
+  <text class="text tiny muted" x="290" y="808">Brand</text>
+  <text class="text tiny muted" x="430" y="808">J. Patel</text>
+  <text class="text tiny muted" x="610" y="808">Vacation</text>
+  <text class="text tiny muted" x="760" y="808">5</text>
+  <text class="text tiny muted" x="900" y="808">5</text>
+  <text class="text tiny muted" x="1040" y="808">Apr 14-Apr 18</text>
+  <text class="text tiny muted" x="1240" y="808">Approved</text>
+
+  <text class="text tiny muted" x="78" y="854">Sam Chen</text>
+  <text class="text tiny muted" x="290" y="854">Ops</text>
+  <text class="text tiny muted" x="430" y="854">R. Gomez</text>
+  <text class="text tiny muted" x="610" y="854">Sick</text>
+  <text class="text tiny muted" x="760" y="854">2</text>
+  <text class="text tiny muted" x="900" y="854">2</text>
+  <text class="text tiny muted" x="1040" y="854">Apr 03-Apr 04</text>
+  <text class="text tiny muted" x="1240" y="854">Approved</text>
+
+  <text class="text tiny muted" x="78" y="900">Nina Lopez</text>
+  <text class="text tiny muted" x="290" y="900">Content</text>
+  <text class="text tiny muted" x="430" y="900">J. Patel</text>
+  <text class="text tiny muted" x="610" y="900">Vacation</text>
+  <text class="text tiny muted" x="760" y="900">7</text>
+  <text class="text tiny muted" x="900" y="900">Pending</text>
+  <text class="text tiny muted" x="1040" y="900">May 05-May 13</text>
+  <text class="text tiny muted" x="1240" y="900">Pending</text>
+
+  <text class="text tiny muted" x="78" y="946">Jordan Bell</text>
+  <text class="text tiny muted" x="290" y="946">Brand</text>
+  <text class="text tiny muted" x="430" y="946">J. Patel</text>
+  <text class="text tiny muted" x="610" y="946">Personal</text>
+  <text class="text tiny muted" x="760" y="946">1</text>
+  <text class="text tiny muted" x="900" y="946">1</text>
+  <text class="text tiny muted" x="1040" y="946">Apr 21</text>
+  <text class="text tiny muted" x="1240" y="946">Approved</text>
+
+  <text class="text small muted" x="65" y="1010">Suggested behavior: sticky filters, sortable columns, search, row drill-through, explicit no-result states.</text>
+</svg>
