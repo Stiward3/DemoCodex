@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024" role="img" aria-labelledby="title desc">
-  <title id="title">Example Time Off Report layout</title>
+  <title id="title">Example Time Off Report layout v2</title>
   <desc id="desc">Wireframe showing a single-screen time off report with persistent filters, KPI cards, analysis charts, employee table, and a detail drawer.</desc>
   <defs>
     <style>
@@ -26,7 +26,7 @@
   <rect class="bg" x="0" y="0" width="1440" height="1024" />
 
   <rect class="card" x="40" y="32" width="1360" height="108" />
-  <text class="title" x="72" y="76">Time Off Report</text>
+  <text class="title" x="72" y="76">Time Off Report v2</text>
   <text class="body" x="72" y="104">Department-level availability, upcoming leave, and employee detail on a single canvas</text>
   <text class="small" x="72" y="125">Last refreshed: Mar 31, 2026 09:40</text>
 
